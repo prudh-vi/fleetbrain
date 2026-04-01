@@ -182,22 +182,3 @@ fleetbrain/
 └── requirements.txt
 ```
 
----
-
-## Roadmap
-
-- [ ] ETA prediction ML model trained on historical trip data
-- [ ] Driver risk scoring (cumulative anomaly history)
-- [ ] Grafana metrics dashboard
-- [ ] CI/CD pipeline with GitHub Actions
-- [ ] Multi-driver support with concurrent trip tracking
-
----
-
-## Why I Built This
-
-MoveInSync manages 43M trips/year across 85K vehicles. The hardest problem in fleet ops isn't routing — it's knowing something is wrong **before** the driver calls in. FleetBrain is my attempt at that system, built from scratch.
-
----
-
-<p align="center">Built by <a href="https://github.com/prudh-vi">Prudhvi</a></p>
